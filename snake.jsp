@@ -1,6 +1,6 @@
 <%
     if (request.getParameter("level") != null && request.getParameter("ini_len") != null) {
-        int $level = 1;
+        int $level = 2;
         try {
             $level = Integer.parseInt(request.getParameter("level"));
         } catch (Exception e) {
